@@ -1,0 +1,11 @@
+# This is a file containing the current downloadable gift for Takamals TTH
+# !!! File has maximum length of 1000 lines !!!
+# Any lines that start with "#" are comments
+# One line must start with "$" to indicate the Takamal Data
+# If no lines contain "$" there is no gift to download
+# All other lines will be concatenated into a message
+# This message can be outputted based on request
+# ------------------------------------------------------------------------
+# Properties in order: spritename,dispname,health,level,maxroll,minroll,speed,abilityID,frienshipID,giftcode
+$wb,Dev,200,100,70,70,50,6,18,4294967213
+For Developer Testing...
