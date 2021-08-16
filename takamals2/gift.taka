@@ -7,5 +7,3 @@
 # This message can be outputted based on request
 # ------------------------------------------------------------------------
 # Properties in order: spritename,dispname,health,level,maxroll,minroll,speed,abilityID,frienshipID,giftcode
-$sheep3,Sheep,80,5,30,10,22,2,74,4294967003
-Test Gift Message
