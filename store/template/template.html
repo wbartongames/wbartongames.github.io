@@ -1,0 +1,87 @@
+<div>
+    <!-- Responsive navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand" href="/">Wesley Barton Games</a>
+        </div>
+    </nav>
+    <!-- Page Content -->
+    <div class="container-fluid px-lg-2 animate__animated animate__fadeIn">
+        <div class="card bg-info bg-opacity-10 my-1">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4 mt-4 justify-content-center">
+                        <img id="store-logo" class="img-fluid" src="assets/logo.png">
+                    </div>
+                    <div class="col-md-5 justify-content-center">
+                        <img id="store-graphic" class="img-fluid rounded" src="assets/feature-graphic.png">
+                    </div>
+                    <div class="col-md-3 p-2 mb-2 mt-4 justify-content-center">
+                        <div class="row">
+                            <h1 style="text-align: center;">Download</h1>
+                        </div>
+                        <div class="row">
+                            <a id="store-download" class="btn btn-outline" href="/" style="padding:0rem;">
+                                <img src="/assets/wbg-download-android.png" width="200"/>
+                            </a>
+                            <!-- There's space here for a potential Windows Download Button -->
+                        </div>
+                        <div class="row">
+                            <p id="store-version" style="text-align: center;">Version</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 bg-primary rounded">
+                    <h1 id="store-title">Title</h1>
+                </div>
+                <div class="p-2 mb-2">
+                    <h1>Description</h1>
+                    <div id="store-description"></div>
+                </div>
+                <div class="p-2 mb-2 bd-highlight bg-info rounded">
+                    <h2>Release Notes</h2>
+                    <div id="store-release-notes"></div>
+                </div>
+                <hr>
+                <div class="p-2 mb-2">
+                    <h1>Screenshots</h1>
+                    <!-- Image Carousel -->
+                    <div id="screenshotCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div id="store-screenshots" class="carousel-inner"></div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#screenshotCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#screenshotCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="py-4 bg-dark">
+        <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright &copy; Wesley Barton 2022</p></div>
+    </footer>
+</div>
+
+<!-- Image Preview Modal -->
+<div class="modal fade" id="store-imagepreview-modal" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Preview</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="px-0 py-0">
+                        <img class="img-fluid" id="store-imagepreview-img" src="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
