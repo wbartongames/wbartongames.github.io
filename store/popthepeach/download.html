@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Official Download for Pop The Peach on Android"/>
+        <meta name="author" content="Wesley Barton Games" />
+        <title>Pop The Peach</title>
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap) -->
+        <link href="/css/styles.css" rel="stylesheet">
+        <!-- Animate.css -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+        <!-- Bootstrap core JS -->
+        <script src="/js/bootstrap.bundle.min.js"></script>
+        <!-- JQuery -->
+        <script src="/js/jquery.min.js"></script>
+    </head>
+    <body>
+        <!-- Load template for HTML body -->
+        <div id="store-body"></div>
+
+        <!-- Load template for store -->
+        <script type="module">
+            // Game Specific Config
+            const config = {
+                title: "Pop The Peach",
+                download_link: "https://github.com/wbartongames/wbartongames.github.io/releases/download/popthepeach-Release2C/PopThePeach_Release2C_GP.apk",
+                version: "Release2C",
+                num_screenshots: 4
+            }
+            // Load Template
+            import { LoadStoreTemplate } from '/js/loadstore.mjs';
+            LoadStoreTemplate(config);
+        </script>
+    </body>
+</html>
