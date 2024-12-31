@@ -7,3 +7,5 @@
 # This message can be outputted based on request
 # ------------------------------------------------------------------------
 # Properties in order: spritename,dispname,health,level,maxroll,minroll,speed,abilityID,frienshipID,giftcode
+$flygfish3,Rainbow Flygfish,65,5,65,1,28,3,33,402
+Welcome back, here's a very special gift for you!
